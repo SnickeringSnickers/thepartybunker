@@ -1,0 +1,21 @@
+body{
+    background-image: 
+        url(images/stars.gif);
+    image-rendering: pixelated;
+    background-blend-mode: normal;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: 0;
+    padding: 0;
+}
+.title{
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto auto auto;
+    right: 0;
+    left: 0;
+    mix-blend-mode: screen;
+}
